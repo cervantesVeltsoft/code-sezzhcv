@@ -10,6 +10,7 @@
   "devDependencies": {
     "babel": "^6.5.2",
     "nib": "^1.1.0",
+    "normalize.css": "^4.1.1",
     "pug": "^2.0.0-alpha6",
     "pug-cli": "^1.0.0-alpha1",
     "stylus": "^0.54.5"
