@@ -3,8 +3,13 @@
   "version": "0.0.1",
   "description": "a simple portfolio for my clients.",
   "author": "sezzh",
+  "scripts": {
+    "build-pug": "pug lib/pug/index.pug -o public/ -P -w",
+    "build-stylus": "stylus -u nib -w lib/stylus/ -o public/css/styles.css"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
+    "nib": "^1.1.0",
     "pug": "^2.0.0-alpha6",
     "pug-cli": "^1.0.0-alpha1",
     "stylus": "^0.54.5"
