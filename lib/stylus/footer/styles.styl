@@ -1,0 +1,23 @@
+.footer
+  background-color complementYellow
+  grid()
+  font-family default-base-font-family
+  color whiteFont
+  &__title
+    font-size rem-calc(34)
+    stack()
+  &__section-cell
+    stack()
+    grid("row", "center")
+    &__img
+      width rem-calc(64)
+    &:nth-child(odd)
+      flex-direction row-reverse
+    &__name
+      font-size rem-calc(18)
+      text-decoration none
+      color principalRed
+      &:visited
+        color principalRed
+      &:active
+        color principalRed
