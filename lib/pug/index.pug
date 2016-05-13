@@ -2,10 +2,65 @@
 html(lang="es")
 head
   meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
   title Mi portafolio de proyectos
   link(rel="stylesheet", href="./css/styles.css")
 body(class="body")
   header(class="header")
     img(src="./assets/sezzh.jpg", class="header__avatar")
-    h1(class="header__name")
-    h2(class="header__email")
+    h1(class="header__name") sezzh
+    h2(class="header__email") hello@sezzh.com
+  section(class="about")
+    article(class="about__article-cell")
+      h3(class="about__article-cell__title") about me
+      p(class="about__article-cell__description")
+        | Alma libre, fiel creyente de la religión jedi, amante de los animales.
+      p(class="about__article-cell__description")
+        | UX designer, apasionado del Front-end, Back-end, Databases, me gustan las computadora y el cielo es azul.
+      p(class="about__article-cell__description")
+        | Fullstack web developer con 1 año de experiencia.
+      p(class="about__article-cell__description")
+        | Actualmente resido en la Ciudad de México.
+    article(class="about__article-cell")
+      h3(class="about__article-cell__title") skills
+      p(class="about__article-cell__description")
+        | User Experience
+      p(class="about__article-cell__description")
+        | Responsive Design + Mobile Design
+      p(class="about__article-cell__description")
+        | CSS3 + Stylus + LESS + sGrid + mdl 
+      p(class="about__article-cell__description")
+        | HTML5 + jade(pug) + jinja2 + Markdown
+      p(class="about__article-cell__description")
+        | Vanilla javascript + jQuery + Angular1-2 + Gulp + bower + Node.js
+      p(class="about__article-cell__description")
+        | python + Django + flask + Hy + kivy
+      p(class="about__article-cell__description")
+        | sql + PostgreSQL + sqlite
+      p(class="about__article-cell__description")
+        | java + android
+      p(class="about__article-cell__description")
+        | lisp + clozure cl
+  footer(class="footer")
+    h4(class="footer__title") social networking
+    section(class="footer__section-cell")
+      img(
+        src="./assets/facebook.png"
+        class="footer__section-cell__img"
+        )
+      a(href="http://facebook.com/sezzh", class="footer__section-cell__name")
+        span(class="footer__section-cell__name__span") facebook
+    section(class="footer__section-cell")
+      img(
+        src="./assets/twitter.png"
+        class="footer__section-cell__img"
+        )
+      a(href="http://twitter.com/sezzh", class="footer__section-cell__name")
+        span(class="footer__section-cell__name__span") twitter
+    section(class="footer__section-cell")
+      img(
+        src="./assets/github.png"
+        class="footer__section-cell__img"
+        )
+      a(href="http://github.com/Sezzh", class="footer__section-cell__name")
+        span(class="footer__section-cell__name__span") github
