@@ -1,0 +1,22 @@
+.about
+  cell(1,1, g:0)
+  font-family default-base-font-family
+  background-color deepBlue
+  grid()
+  color whiteFont
+  &__article-cell
+    stack()
+    &__title
+      font-size rem-calc(32)
+    &__description
+      font-size rem-calc(18)
+      letter-spacing rem-calc(2)
+      line-height rem-calc(30)
+      margin-bottom rem-calc(15)
+      &:last-child
+        margin-bottom rem-calc(15)
+
+@media screen and (min-width: rem-calc(breakpoints[md]))
+  .about
+    &__article-cell
+      cell(1,2, g:rem-calc(80))

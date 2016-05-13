@@ -5,14 +5,17 @@
   "author": "sezzh",
   "scripts": {
     "build-pug": "pug lib/pug/index.pug -o public/ -P -w",
-    "build-stylus": "stylus -u nib -w lib/stylus/ -o public/css/styles.css"
+    "build-stylus": "stylus -u s-grid -u autoprefixer-stylus -w lib/stylus/ -o public/css/styles.css"
   },
   "devDependencies": {
+    "autoprefixer-stylus": "^0.9.3",
     "babel": "^6.5.2",
+    "jeet": "^6.1.2",
     "nib": "^1.1.0",
     "normalize.css": "^4.1.1",
     "pug": "^2.0.0-alpha6",
     "pug-cli": "^1.0.0-alpha1",
+    "s-grid": "^1.1.2",
     "stylus": "^0.54.5"
   }
 }
